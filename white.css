@@ -1,0 +1,38 @@
+:root {
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+    --borderColor: #c1c1c1;
+    --mainText: black;
+    --secondaryText: #4b5156;
+    --themeDotBorder: #24292e;
+    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
+    --buttonColor: black;
+}
+
+#preview-shadow {
+    background-color: #807b81;
+}
+
+#skills {
+    background-color: #807b818a;
+}
+
+#preview {
+    border: 1.5px solid #0b0c0a;
+}
+
+.corner {
+    border: 1.5px solid #0b0c0a;
+}
+
+
+/* Contact Form */
+
+#contact-form {
+    border: 1px solid #fff;
+}
+
+.input-field {
+    background-color: #fff;
+}
