@@ -2,18 +2,17 @@
 <html>
 
 <head>
-    <title>Edna Shuli</title>
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="default.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
     <link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <title>Edna Shuli</title>
 </head>
 
 <body>
@@ -26,23 +25,12 @@
                 </h1>
                 <!-- <h4>A single &lt;span&gt; is all you need.</h4> -->
             </div>
-
-
             <div class="intro-wrapper">
                 <div class="nav-wrapper">
-
-                    <!-- Link around dots-wrapper added after tutorial video -->
-                    <a href="index.html">
-                        <div class="dots-wrapper">
-                            <div id="dot-1" class="browser-dot"></div>
-                            <div id="dot-2" class="browser-dot"></div>
-                            <div id="dot-3" class="browser-dot"></div>
-                        </div>
-                    </a>
-
-
                     <ul id="navigation">
-                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index.html#projects">PROJECTS</a></li>
+                        <li><a href="index.html#contact">CONTACT</a></li>
 
                     </ul>
                 </div>
@@ -67,7 +55,7 @@
                             <div id="corner-tl" class="corner"></div>
                             <div id="corner-tr" class="corner"></div>
                             <h3>What I Do</h3>
-                            <p>I am UX Designer with Front-end development skills</p>
+                            <p>I am a Front-end developer with UX Design skills.</p>
                             <div id="corner-br" class="corner"></div>
                             <div id="corner-bl" class="corner"></div>
                         </div>
@@ -93,7 +81,7 @@
 
                     <h4>TOP EXPERTISE</h4>
 
-                    <p>Front End Developer developer with primary focus on Vue.js + UI/UX Design: <a target="_blank" href="Edna Shuli_CV.pdf"><i
+                    <p>Front End Developer developer with primary focus on Vue.js + UI/UX Design: <a target="_blank" class="downloadbtn hvr-grow" href="cv/Edna Shuli_CV.pdf"><i
 						class="fas fa-download items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i>Download Resume</a></p>
 
                     <div id="skills">
@@ -126,7 +114,7 @@
     </section>
 
     <section class="s1">
-        <div class="main-container">
+        <div class="main-container" id="projects">
             <h3 style="text-align: center;">Projects</h3>
 
             <div class="post-wrapper">
@@ -137,18 +125,20 @@
                         <div class="post-preview">
                             <h6 class="post-title">Online Personal Cooking Site</h6>
                             <p class="post-intro">Yiami is a cooking website, where you can access recipes as well as to add your own recipe.</p>
-                            <a href="post.html">Read More</a>
+                            <a class="site-link hvr-wobble-horizontal" href="https://yiami-project.herokuapp.com/">Visit Site</a>
+                            <a class="code-link hvr-wobble-horizontal" href="https://github.com/edshuli/Yiami-DCProject">See code</a>
+
                         </div>
                     </div>
                 </div>
-
                 <div>
                     <div class="post">
                         <img class="thumbnail" src="images/techforyou.png">
                         <div class="post-preview">
                             <h6 class="post-title">Online Store - Tech For You</h6>
                             <p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
-                            <a href="post.html">Read More</a>
+                            <a class="site-link hvr-wobble-horizontal" href="https://ecompro4.herokuapp.com/">Visit Site</a>
+                            <a class="code-link hvr-wobble-horizontal" href="https://github.com/edshuli/e-commerce-project4">See code</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +149,8 @@
                         <div class="post-preview">
                             <h6 class="post-title">Travel Destination Website</h6>
                             <p class="post-intro">Find inspiration and guidance for your next holiday through this website.</p>
-                            <a href="post.html">Read More</a>
+                            <a class="site-link hvr-wobble-horizontal" href="https://edshuli.github.io/FlipFlop/">Visit Site</a>
+                            <a class="code-link hvr-wobble-horizontal" href="https://github.com/edshuli/FlipFlop">See code</a>
                         </div>
                     </div>
                 </div>
@@ -192,12 +183,11 @@
             </form>
         </div>
         <div class="social-links">
-            <h5>Follow me on Social Media</h5>
-            <a href="https://www.instagram.com/" target="_blank"><i
-				class="fab fa-instagram  items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
-            <a href="https://www.linkedin.com/in/edna-shuli-49142888/" target="_blank"><i
+            <h5 class="socialLinkTitle">Follow me on Social Media</h5>
+            <a <a class="hvr-grow " href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram  items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a class="hvr-grow " href="https://www.linkedin.com/in/edna-shuli-49142888/" target="_blank"><i
 				class="fab fa-linkedin-in items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
-            <a href="https://github.com/edshuli" target="_blank"><i
+            <a <a class="hvr-grow " href="https://github.com/edshuli" target="_blank"><i
 				class="fab fa-github items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
         </div>
         </div>

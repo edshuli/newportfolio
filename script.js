@@ -21,14 +21,14 @@ for (var i = 0; themeDots.length > i; i++) {
 
 function setTheme(mode) {
     if (mode == 'light') {
-        document.getElementById('theme-style').href = 'white.css'
+        document.getElementById('theme-style').href = 'css/white.css'
     }
     if (mode == 'black') {
-        document.getElementById('theme-style').href = 'black.css'
+        document.getElementById('theme-style').href = 'css/black.css'
     }
 
     if (mode == 'purple') {
-        document.getElementById('theme-style').href = 'default.css'
+        document.getElementById('theme-style').href = 'css/default.css'
     }
 
     localStorage.setItem('theme', mode)
