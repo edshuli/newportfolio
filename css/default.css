@@ -387,6 +387,7 @@ h6 {
     border-radius: 5px;
     border: 1px solid var(--borderColor);
     font-size: 14px;
+    color: rgb(32, 19, 36);
 }
 
 #submit-btn {
